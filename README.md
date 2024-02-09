@@ -26,7 +26,7 @@ Every 100 generations, we will show a convergence graph of how our program is be
 The stopping criterion of our program consists of two conditions: the number of generations entered through the interface is exhausted or it returns a valid sudoku that must meet the condition that the sudoku's fitness is 0.
 
 
-# **"Sudoku con algoritmo genético"**
+# **Sudoku con algoritmo genético**
 
 El programa fue realizado por:
 
