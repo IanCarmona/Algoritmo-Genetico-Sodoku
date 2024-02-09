@@ -1,4 +1,32 @@
-"Sudoku con algoritmo genético"
+**Sudoku with Genetic Algorithm**
+
+The program was developed by:
+
+Carmona Serrano Ian Carlo
+Mendez Lopez Luz Fernanda
+Perez Lucio Kevyn Alejandro
+Rosales Benhumea Aldo
+
+To execute our code, we need to follow several steps:
+
+The first condition is to download the folder containing the files "funciones.py" and "interfaz.py".
+
+Once the above step is completed, open the "interfaz.py" program and run it.
+
+When opening the interface, we can see that it is user-friendly, with various options represented by difficulty buttons. By pressing any of them, it generates a sudoku depending on its difficulty and displays it on the board.
+
+On the right side, we can find the parameter configuration for the genetic algorithm. Here, it proposes some values mentioned in the article. The parameters that can be modified are as follows (Crossover percentage 1 and 2, Mutation percentage 1 and 2, Population size, and Number of generations).
+
+Once all the parameters are configured and the sudoku to solve is selected, we can click on the "Resolve" button.
+
+Once the program is running, you will see that it starts to work. It is normal for it to take a few seconds, depending on the population size, but on average it takes (20 to 30 seconds).
+
+Every 100 generations, we will show a convergence graph of how our program is behaving, which will display the best and worst individual of each generation. At the same time, the sudoku of that generation will be displayed on the interface board.
+
+The stopping criterion of our program consists of two conditions: the number of generations entered through the interface is exhausted or it returns a valid sudoku that must meet the condition that the sudoku's fitness is 0.
+
+
+**"Sudoku con algoritmo genético"**
 
 El programa fue realizado por:
 
